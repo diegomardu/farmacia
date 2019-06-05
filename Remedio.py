@@ -18,3 +18,6 @@ class Remedio:
         return self._quantidade
     def setQTD(self,quantidade):
         self._quantidade = quantidade
+
+    def vende(self,qtd):
+        self._quantidade -= qtd
